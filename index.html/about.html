@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College-ACT Diary</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="icon" type="act-icon" href="CCS Googlers Logo.png">
+</head>
+<body>
+    <header>
+        <div class="navhead">
+            <div class="iconic"><img src="CCS Googlers Logo.png" width="100px" height="100px"></div>
+        
+            <div class="nav-bar"> 
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+          
+   
+            </div>
+            </div> 
+    </header>
+     <section class="about-wrapper">     
+           <div class="profile">
+            <img src="IMG_0414.jpg" width="400px" height="400px" style="border-radius: 50%;">
+            </div>   
+            
+            <div class="prof-text" style="font-size: 22.5px;">
+                <p>Hi! I'm <strong>Ching Paul Ostria</strong>, I'm a <strong>Front-End Developer</strong> and i build this page</p>
+                <p>for our project in school. It's called <strong>College Day</strong> a diary through out</p>
+                <p>our semester, Where lots of fascinating events happens.</p>
+            </div>
+     </section>
+    
+
+        <div class="self-context">
+        
+        </div>      
+       </section>  
+       <script>
+       ScrollReveal({
+        //reset:true,
+        distance: '80px',
+        duration: 2500,
+        delay: 20
+        });
+        
+        ScrollReveal().reveal('.profile, .billiard-context, .table',{ delay: 1, origin: 'left', });
+        ScrollReveal().reveal('.prof-text, .billiard, .self-context',{ delay: 1, origin: 'right', interval: 200});
+        </script>
+       <footer>
+        <div class="navfoot-about">
+        <div class="footer-nav">     
+        </div>
+            
+        </div>
+       </footer>
+    
+</body>
+</html>

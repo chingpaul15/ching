@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College-ACT Diary</title>   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="style.css" rel="stylesheet"/>
+   
+    <link rel="icon" type="act-icon" href="CCS Googlers Logo.png">
+
+</head>
+<body>
+
+<header>
+ <div class="navhead">
+    <div class="iconic"><img src="CCS Googlers Logo.png" width="100px" height="100px"></div>
+
+    <div class="nav-bar"> 
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+ 
+    </div>
+ </div> 
+</header>
+<section class="wrapper">
+ <div class="txt1">
+        <h1 class="he1">College Day!</h1>   
+        </div>   
+</section>
+<section class="main">
+    <div class="act-cover">
+    <img src="CCS Googlers Logo.png" height="350px"/>
+    </div>
+</section>
+    <section class="main1">    
+
+        <div class="context">
+        <h1>By students, for students</h1>
+        <p>The Event at ACT which was held in the main CyberTower<p>     
+        <p>was glamorous and significant.</p>  
+
+        </div>
+        <div class="container">
+            <div class="images">
+                <input type="radio" name="slide" id="imahe1"/>
+                <input type="radio" name="slide" id="imahe2"/>
+    
+            
+    
+                <img src="contest.jpg" class="img1" alt="imahe1" width="600px" height="530px"/>
+                <img src="sir.jpg" class="img2" alt="imahe2" width="600px" height="530px"/>
+        
+            </div>
+            <div class="dots">
+            
+            </div>
+        </div>    
+    </section>
+    <script>
+    ScrollReveal({
+    //reset:true,
+    distance: '60px',
+    duration: 2500,
+    delay: 20
+    });
+    
+    ScrollReveal().reveal('.he1, .he3',{ delay: 1, origin: 'bottom', });
+    ScrollReveal().reveal('.context',{ delay: 1, origin: 'left', });
+    ScrollReveal().reveal('.slider',{ delay: 1, origin: 'right', });
+    </script>
+   <footer>
+    <div class="navfoot">
+    <div class="iconic"></div>
+
+    <div class="foot-nav">     
+     <li><p>Follow us on social platforms</p></li><br>
+     <li><a href="https://www.facebook.com"><img src="facebook.png" width="45px" height="50px"/></a></li>
+     <li><a href="https://www.instagram.com"><img src="instagram.png"  width="45px" height="50px"/></a></li>
+     <li><a href="https://www.twitter.com"><img src="twitter.png"  width="45px" height="50px"/></a></li>   
+    </div>
+        
+    </div>
+   </footer>
+</body>
+</html>
